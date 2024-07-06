@@ -45,9 +45,6 @@ help_menu1 = """
 
 - show -> Show all Active Victims 
 
-- ddos -> Ddos url 
-       exmpl -> ddos google.com
-
 - exit -> Quit 
 
 """
